@@ -16,7 +16,6 @@ pChessboard Chessboard_constructor(int size){
 	pBoard->size = size;
 	
 	//init des cellules (lignes)
-	
 	pBoard->keens = _malloc(size * sizeof(int*));
 	
 	//colonnes
