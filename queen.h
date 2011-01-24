@@ -1,5 +1,5 @@
 /*
- *  keen.h
+ *  queen.h
  *  HillClimbing
  *
  *  Created by Francois-Guillaume Ribreau on 21/01/11.
@@ -7,9 +7,9 @@
  *
  */
 
-//A 1 keen existe, 0 sinon
+//A 1 queen existe, 0 sinon
 
-typedef int Keen;
+typedef int Queen;
 
-//pointeur sur Keen
-typedef Keen* pKeen;
+//pointeur sur Queen
+typedef Queen* pKeen;

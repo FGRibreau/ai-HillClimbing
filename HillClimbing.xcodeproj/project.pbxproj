@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		8DD76FAC0486AB0100D96B5E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.c */; settings = {ATTRIBUTES = (); }; };
 		8DD76FB00486AB0100D96B5E /* HillClimbing.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* HillClimbing.1 */; };
-		C5CE74EC12E96F0400DEC784 /* env.c in Sources */ = {isa = PBXBuildFile; fileRef = C5CE74EA12E96F0400DEC784 /* env.c */; };
+		C5B3FA6112ED711200FFABF8 /* env.c in Sources */ = {isa = PBXBuildFile; fileRef = C5B3FA5D12ED711200FFABF8 /* env.c */; };
+		C5B3FA6212ED711200FFABF8 /* Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = C5B3FA5F12ED711200FFABF8 /* Stack.c */; };
+		C5B3FB2512ED954700FFABF8 /* testChessboard.c in Sources */ = {isa = PBXBuildFile; fileRef = C5B3FB2412ED954700FFABF8 /* testChessboard.c */; };
 		C5CE74EF12E96F3900DEC784 /* chessboard.c in Sources */ = {isa = PBXBuildFile; fileRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */; };
-		C5CE74F312E9709700DEC784 /* keen.c in Sources */ = {isa = PBXBuildFile; fileRef = C5CE74F212E9709700DEC784 /* keen.c */; };
+		C5CE74F312E9709700DEC784 /* queen.c in Sources */ = {isa = PBXBuildFile; fileRef = C5CE74F212E9709700DEC784 /* queen.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,12 +32,16 @@
 /* Begin PBXFileReference section */
 		08FB7796FE84155DC02AAC07 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		8DD76FB20486AB0100D96B5E /* HillClimbing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HillClimbing; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5CE74EA12E96F0400DEC784 /* env.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = env.c; sourceTree = "<group>"; };
-		C5CE74EB12E96F0400DEC784 /* env.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = env.h; sourceTree = "<group>"; };
+		C5B3FA5D12ED711200FFABF8 /* env.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = env.c; sourceTree = "<group>"; };
+		C5B3FA5E12ED711200FFABF8 /* env.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = env.h; sourceTree = "<group>"; };
+		C5B3FA5F12ED711200FFABF8 /* Stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Stack.c; sourceTree = "<group>"; };
+		C5B3FA6012ED711200FFABF8 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		C5B3FB2312ED954700FFABF8 /* testChessboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testChessboard.h; sourceTree = "<group>"; };
+		C5B3FB2412ED954700FFABF8 /* testChessboard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = testChessboard.c; sourceTree = "<group>"; };
 		C5CE74ED12E96F3900DEC784 /* chessboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chessboard.h; sourceTree = "<group>"; };
 		C5CE74EE12E96F3900DEC784 /* chessboard.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chessboard.c; sourceTree = "<group>"; };
-		C5CE74F112E9709700DEC784 /* keen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keen.h; sourceTree = "<group>"; };
-		C5CE74F212E9709700DEC784 /* keen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keen.c; sourceTree = "<group>"; };
+		C5CE74F112E9709700DEC784 /* queen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queen.h; sourceTree = "<group>"; };
+		C5CE74F212E9709700DEC784 /* queen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = queen.c; sourceTree = "<group>"; };
 		C6A0FF2C0290799A04C91782 /* HillClimbing.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HillClimbing.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,6 +59,7 @@
 		08FB7794FE84155DC02AAC07 /* HillClimbing */ = {
 			isa = PBXGroup;
 			children = (
+				C5B3FB2212ED953A00FFABF8 /* test */,
 				08FB7795FE84155DC02AAC07 /* src */,
 				C6A0FF2B0290797F04C91782 /* Documentation */,
 				1AB674ADFE9D54B511CA2CBB /* Products */,
@@ -63,13 +70,12 @@
 		08FB7795FE84155DC02AAC07 /* src */ = {
 			isa = PBXGroup;
 			children = (
-				C5CE74EA12E96F0400DEC784 /* env.c */,
-				C5CE74EB12E96F0400DEC784 /* env.h */,
+				C5B3FA5C12ED711200FFABF8 /* lib */,
 				08FB7796FE84155DC02AAC07 /* main.c */,
 				C5CE74ED12E96F3900DEC784 /* chessboard.h */,
 				C5CE74EE12E96F3900DEC784 /* chessboard.c */,
-				C5CE74F112E9709700DEC784 /* keen.h */,
-				C5CE74F212E9709700DEC784 /* keen.c */,
+				C5CE74F112E9709700DEC784 /* queen.h */,
+				C5CE74F212E9709700DEC784 /* queen.c */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -80,6 +86,26 @@
 				8DD76FB20486AB0100D96B5E /* HillClimbing */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C5B3FA5C12ED711200FFABF8 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				C5B3FA5D12ED711200FFABF8 /* env.c */,
+				C5B3FA5E12ED711200FFABF8 /* env.h */,
+				C5B3FA5F12ED711200FFABF8 /* Stack.c */,
+				C5B3FA6012ED711200FFABF8 /* Stack.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		C5B3FB2212ED953A00FFABF8 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				C5B3FB2312ED954700FFABF8 /* testChessboard.h */,
+				C5B3FB2412ED954700FFABF8 /* testChessboard.c */,
+			);
+			name = test;
 			sourceTree = "<group>";
 		};
 		C6A0FF2B0290797F04C91782 /* Documentation */ = {
@@ -134,9 +160,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DD76FAC0486AB0100D96B5E /* main.c in Sources */,
-				C5CE74EC12E96F0400DEC784 /* env.c in Sources */,
 				C5CE74EF12E96F3900DEC784 /* chessboard.c in Sources */,
-				C5CE74F312E9709700DEC784 /* keen.c in Sources */,
+				C5CE74F312E9709700DEC784 /* queen.c in Sources */,
+				C5B3FA6112ED711200FFABF8 /* env.c in Sources */,
+				C5B3FA6212ED711200FFABF8 /* Stack.c in Sources */,
+				C5B3FB2512ED954700FFABF8 /* testChessboard.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +181,8 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/bin;
+				LD_OPENMP_FLAGS = "-fopenmp";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = HillClimbing;
 			};
 			name = Debug;
@@ -164,6 +194,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = HillClimbing;
 			};
 			name = Release;

@@ -1,5 +1,5 @@
 /*
- *  keen.c
+ *  queen.c
  *  HillClimbing
  *
  *  Created by Francois-Guillaume Ribreau on 21/01/11.
@@ -7,5 +7,5 @@
  *
  */
 
-#include "keen.h"
+#include "queen.h"
 
