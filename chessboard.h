@@ -17,7 +17,7 @@ typedef struct Chessboard* pChessboard;
 
 /* Echequier */
 struct Chessboard{
-	int**	keens;
+	int**	queens;
 	int		size;
 	int		h;
 } Chessboard;
@@ -52,5 +52,8 @@ bool Chessboard_equals(pChessboard pBoardB, pChessboard pBoardA);
 
 //Retourne le H d'une matrice
 int Chessboard_getH(pChessboard pBoard);
+
+//
+void Chessboard_free(pChessboard pBoard);
 
 #endif

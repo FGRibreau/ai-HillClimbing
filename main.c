@@ -41,5 +41,8 @@ int main (int argc, const char * argv[]) {
 	 */
 	printf("H= %d\n", Chessboard_getH(tmp));
 	
+	Chessboard_free(tmp);
+	
+	_printMalloc();
     return 0;
 }

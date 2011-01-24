@@ -248,12 +248,13 @@ bool Chessboard_equals(pChessboard pBoardB, pChessboard pBoardA){
 }
 
 void Chessboard_free(pChessboard pBoard){
-	_free(pBoard->);
-
-	//Alloc des colonnes
+	//Désalloc de la matrice
 	for(int line = 0;line < pBoard->size; line++){
-		for(int col = 0; col < pBoard->size; col++){
-			//pBoard->keens
-		}
+		_free(pBoard->queens[line]);
 	}
+	
+	_free(pBoard->queens);
+	
+	_free(pBoard);
+	
 }
