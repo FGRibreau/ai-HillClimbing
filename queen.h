@@ -12,4 +12,4 @@
 typedef int Queen;
 
 //pointeur sur Queen
-typedef Queen* pKeen;
+typedef Queen* pQueen;

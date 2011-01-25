@@ -21,11 +21,11 @@ int main (int argc, const char * argv[]) {
 	Chessboard_draw(tmp);
 	
 	for(int col = 0; col < tmp->size; col++){
-		printf("Col[%i] Ligne: %i\n", col, Chessboard_getKeenPos(tmp, col));
+		printf("Col[%i] Ligne: %i\n", col, Chessboard_getQueenPos(tmp, col));
 	}
 	
 	
-	//printf("Matrice pareil ? %s\n", Chessboard_equals(tmp, tmp2) == true ? "Oui" : "Non");
+	//printf("Matrixrice pareil ? %s\n", Chessboard_equals(tmp, tmp2) == true ? "Oui" : "Non");
 	
 	//Il faut maintenant, pour chaque reine, la déplacer sur toute la colonne et trouver son plus bas H
 	

@@ -32,7 +32,7 @@ void testChessboard(){
 					0,0,1,1,0,
 					0,1,0,0,0};
 	
-	Chessboard_setKeens(t, values);
+	Chessboard_setQueens(t, values);
 
 	equals(Chessboard_getH(t), 2, "Test du H (taille 5)");
 	
@@ -46,7 +46,7 @@ void testChessboard(){
 						0,0,0,0,
 						0,0,0,1};
 	
-	Chessboard_setKeens(t, values2);
+	Chessboard_setQueens(t, values2);
 	
 	equals(Chessboard_getH(t), 3, "Test du H ");
 
@@ -60,7 +60,7 @@ void testChessboard(){
 						0,0,0,1,
 						0,0,0,0};
 	
-	Chessboard_setKeens(t, values3);
+	Chessboard_setQueens(t, values3);
 	
 	//Chessboard_draw(t);
 	
@@ -75,7 +75,7 @@ void testChessboard(){
 						0,1,0,
 						0,0,1};
 	
-	Chessboard_setKeens(t, values4);
+	Chessboard_setQueens(t, values4);
 	
 	//Chessboard_draw(t);
 	
@@ -95,7 +95,7 @@ void testEqualsClone(){
 					0,0,1,1,0,
 					0,1,0,0,0};
 	
-	Chessboard_setKeens(firstMatrix, values);
+	Chessboard_setQueens(firstMatrix, values);
 	
 	pChessboard cloneMatrix = Chessboard_clone(firstMatrix);
 	

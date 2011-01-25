@@ -22,16 +22,15 @@ struct Chessboard{
 	int		h;
 } Chessboard;
 
-typedef struct KeenState* pKeenState;
 
 /* Etat d'une reine */
-struct KeenState{
-	int			col;			//Numéro de colonne [0-N]
-	int			lineOldPos;		//Ancienne position de la reine (ligne)
-	int			lineBestPos;	//Meilleur position de la reine
-	int			hOld;			//Ancienne valeur de H
-	int			hBest;			//Meilleur valeur de H lorsque la reine est en position lineBestPos
-} KeenState;
+
+typedef struct Matrix* pMatrix;
+
+typedef struct Matrix{
+	int**		values;
+	int			size;
+} Matrix;
 
 
 pChessboard Chessboard_constructor(int size);
@@ -43,10 +42,10 @@ void Chessboard_empty(pChessboard board);
 void Chessboard_draw(pChessboard board);
 
 //Retourne la position d'une reine dans une colonne
-int Chessboard_getKeenPos(pChessboard pBoard, int col);
+int Chessboard_getQueenPos(pChessboard pBoard, int col);
 
 //Valorise la matrice avec values
-void Chessboard_setKeens(pChessboard pBoard, int* values);
+void Chessboard_setQueens(pChessboard pBoard, int* values);
 
 //Return true si 
 bool Chessboard_equals(pChessboard pBoardB, pChessboard pBoardA);
@@ -63,4 +62,11 @@ pChessboard Chessboard_clone(pChessboard pBoardToClone);
 //
 pChessboard Chessboard_getNextState(pChessboard pBoardCurrentState);
 
+
+pMatrix Matrix_constructor(pChessboard pBoard);
+void Matrix_destructor(pMatrix hMatrix);
+
+
+//Tools
+void __drawMatrix(int** mat, int size);
 #endif
