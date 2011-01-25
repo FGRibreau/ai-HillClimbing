@@ -197,7 +197,48 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array/>
+	<array>
+		<dict>
+			<key>Content</key>
+			<dict>
+				<key>PBXProjectModuleGUID</key>
+				<string>C527E31312EEC54F006D7A71</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>chessboard.c</string>
+				<key>PBXSplitModuleInNavigatorKey</key>
+				<dict>
+					<key>Split0</key>
+					<dict>
+						<key>PBXProjectModuleGUID</key>
+						<string>C527E31412EEC54F006D7A71</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>chessboard.c</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>C527E32712EED482006D7A71</string>
+						<key>history</key>
+						<array>
+							<string>C527E2F412EEC288006D7A71</string>
+						</array>
+					</dict>
+					<key>SplitCount</key>
+					<string>1</string>
+				</dict>
+				<key>StatusBarVisibility</key>
+				<true/>
+			</dict>
+			<key>Geometry</key>
+			<dict>
+				<key>Frame</key>
+				<string>{{0, 20}, {1190, 579}}</string>
+				<key>PBXModuleWindowStatusBarHidden2</key>
+				<false/>
+				<key>RubberWindowFrame</key>
+				<string>15 253 1190 620 0 0 1440 878 </string>
+			</dict>
+		</dict>
+	</array>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>-1</integer>
@@ -328,20 +369,20 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C527E20E12EDD3D1006D7A71</string>
+										<string>C527E32612EED482006D7A71</string>
 										<key>history</key>
 										<array>
 											<string>C5B3FAA012ED848000FFABF8</string>
-											<string>C5B3FAA112ED848000FFABF8</string>
-											<string>C5B3FAA612ED86B200FFABF8</string>
 											<string>C5B3FAF312ED90CE00FFABF8</string>
 											<string>C5B3FB1B12ED943900FFABF8</string>
-											<string>C527E1F412EDD31D006D7A71</string>
-											<string>C527E20A12EDD3D1006D7A71</string>
-											<string>C527E20B12EDD3D1006D7A71</string>
-											<string>C527E20C12EDD3D1006D7A71</string>
-											<string>C527E20D12EDD3D1006D7A71</string>
-											<string>C527E20412EDD369006D7A71</string>
+											<string>C527E29312EEB31A006D7A71</string>
+											<string>C527E29412EEB31A006D7A71</string>
+											<string>C527E31A12EEC9B8006D7A71</string>
+											<string>C527E31B12EEC9B8006D7A71</string>
+											<string>C527E31C12EEC9B8006D7A71</string>
+											<string>C527E31D12EEC9B8006D7A71</string>
+											<string>C527E31E12EEC9B8006D7A71</string>
+											<string>C527E31F12EEC9B8006D7A71</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -542,9 +583,10 @@
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>C527E1EF12EDD2C8006D7A71</string>
 		<string>C527E1F012EDD2C8006D7A71</string>
-		<string>1CD10A99069EF8BA00B06720</string>
-		<string>C5CE750112E9731B00DEC784</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
+		<string>C527E31312EEC54F006D7A71</string>
+		<string>C5CE750112E9731B00DEC784</string>
 		<string>/Users/FG/Dropbox/2010_2011_EPSI/IA/ai-HillClimbing/HillClimbing.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -564,8 +606,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -588,6 +628,8 @@
 							<string>414pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -640,7 +682,7 @@
 			<key>WindowToolGUID</key>
 			<string>C5CE750112E9731B00DEC784</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -764,7 +806,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -888,7 +930,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {824, 475}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-1136 214 824 516 -1680 -150 1680 1050 </string>
+								<string>710 216 824 516 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -917,11 +959,11 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>-1136 214 824 516 -1680 -150 1680 1050 </string>
+			<string>710 216 824 516 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

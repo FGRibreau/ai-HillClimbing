@@ -56,7 +56,6 @@ int Chessboard_getH(pChessboard pBoard){
 	,	col = 0
 	,	line = 0
 	,	x = 0
-	,	y = 0
 	,	upCol = 0
 	,	upLine = 0
 	,	dwCol = 0
@@ -74,7 +73,11 @@ int Chessboard_getH(pChessboard pBoard){
 			}
 		}
 		
-		h += nbKeen > 0 ? (nbKeen*(nbKeen-1))/2 : 0;
+		if(nbKeen > 1){
+			//printf("(line) h = (h = %i) + %i\n", h, (nbKeen*(nbKeen-1))/2);
+		}
+		
+		h += nbKeen > 1 ? (nbKeen*(nbKeen-1))/2 : 0;
 	}
 
 	
@@ -88,7 +91,11 @@ int Chessboard_getH(pChessboard pBoard){
 			}
 		}
 		
-		h += nbKeen > 0 ? (nbKeen*(nbKeen-1))/2 : 0;
+		/*if(nbKeen > 1){
+			printf("(col)  h = (h = %i) + %i\n", h, (nbKeen*(nbKeen-1))/2);
+		}*/
+		
+		h += nbKeen > 1 ? (nbKeen*(nbKeen-1))/2 : 0;
 	}
 
 	//Parcourir les reines de haut en bas, de gauche à droite
@@ -99,8 +106,6 @@ int Chessboard_getH(pChessboard pBoard){
 		
 		if(pBoard->queens[line][col] == 1){
 			nbKeen = 0;
-			x = 0;
-			y = 0;
 			
 			upCol = dwCol = col;
 			upLine = dwLine = line;
@@ -117,13 +122,21 @@ int Chessboard_getH(pChessboard pBoard){
 				upLine--;
 			}
 			
+			/*if(nbKeen > 1){
+				printf("(up)  h = (h = %i) + %i\n", h, (nbKeen*(nbKeen-1))/2);
+			}*/
 			
-			h += nbKeen > 0 ? (nbKeen*(nbKeen-1))/2 : 0;
+			//h += nbKeen > 1 ? (nbKeen*(nbKeen-1))/2 : 0;
+			h += nbKeen > 1 ? nbKeen-1 : 0;
 			nbKeen = 0;
+			
+			//printf("\n");
 			
 			//Vers la dialognale basse
 			while(dwCol < pBoard->size && dwLine < pBoard->size){
+				
 				if(pBoard->queens[dwLine][dwCol] == 1){
+					//printf("(dw) [%i][%i]\n", dwLine, dwCol);
 					nbKeen++;
 				}
 				
@@ -131,7 +144,12 @@ int Chessboard_getH(pChessboard pBoard){
 				dwLine++;
 			}
 
-			h += nbKeen > 1 ? ((nbKeen*(nbKeen-1))/2) : 0;
+			/*if(nbKeen > 1){
+				printf("(dw)  h = (h = %i) + %i\n", h, (nbKeen*(nbKeen-1))/2);
+			}*/
+			
+			//h += nbKeen > 1 ? ((nbKeen*(nbKeen-1))/2) : 0;
+			h += nbKeen > 1 ? nbKeen-1 : 0;
 		}
 	
 	}}
@@ -163,31 +181,57 @@ void Chessboard_setKeens(pChessboard pBoard, int* values){
 
 //Prendre le dernier état du stack
 
-pChessboard Chessboard_getNextState(pChessboard pBoard){
-	pChessboard newState = NULL;
-	//Pour chaque colonne, avoir hValue[col] = [ positionReine , valeurDeH ];
+pChessboard Chessboard_getNextState(pChessboard pBoardCurrentState){
+	pChessboard pBoard = Chessboard_clone(pBoardCurrentState);
+	
+	equalsBool(Chessboard_equals(pBoard, pBoardCurrentState), "Chessboard_getNextState pareil ?");
+	
 	pKeenState ks[pBoard->size];
 	
-	//parcours des colonnes
+	int currentH = 0;
 	
+	//parcours des colonnes
 	for(int col = 0; col < pBoard->size; col++){
-		/*
-		 int			lineOldPos;		//Ancienne position de la reine (ligne)
-		 int			lineBestPos;	//Meilleur position de la reine
-		 int			h;
-		 */
-		ks[col]->lineOldPos = Chessboard_getKeenPos(pBoard, col);
+		ks[col] = malloc(sizeof(KeenState));
+		
+		ks[col]->lineBestPos	= ks[col]->lineOldPos	= Chessboard_getKeenPos(pBoard, col);
+		
+		ks[col]->hBest			= ks[col]->hOld			= Chessboard_getH(pBoard);
+		
+		//Enlever la reine qui était sur cette colonne
+		pBoard->queens[ks[col]->lineOldPos][col] = 0;
 		
 		//Recherche de la plus petite valeur de H
 		for(int line = 0; line < pBoard->size; line++){
 			
+			if(line == ks[col]->lineOldPos){//Tout sauf la position actuelle
+				continue;
+			}
+			
+			pBoard->queens[line][col] = 1;
+			
+			currentH = Chessboard_getH(pBoard);
+			
+			if(currentH < ks[col]->hBest){
+				ks[col]->lineBestPos = line;
+				ks[col]->hBest = currentH;
+			}
+			
+			if (ks[col]->hBest == 0) {
+				//Ne pas prendre en compte les 2 lignes suivantes
+				//
+			}
+			
+			pBoard->queens[line][col] = 0;
+			pBoard->queens[ks[col]->lineOldPos][col] = 1;
 		}
-	
+		
+		//Mettre la reine dans la meilleure colonne
+		pBoard->queens[ks[col]->lineBestPos][col] = 1;
 	}
 	
-	
 	//Appliquer la modification sur la matrice
-	return newState;
+	return pBoard;
 }
 
 //Retourne un KeenState pour une colonne donnée
@@ -254,7 +298,5 @@ void Chessboard_free(pChessboard pBoard){
 	}
 	
 	_free(pBoard->queens);
-	
 	_free(pBoard);
-	
 }

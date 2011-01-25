@@ -29,7 +29,8 @@ struct KeenState{
 	int			col;			//Numéro de colonne [0-N]
 	int			lineOldPos;		//Ancienne position de la reine (ligne)
 	int			lineBestPos;	//Meilleur position de la reine
-	int			h;
+	int			hOld;			//Ancienne valeur de H
+	int			hBest;			//Meilleur valeur de H lorsque la reine est en position lineBestPos
 } KeenState;
 
 
@@ -55,5 +56,11 @@ int Chessboard_getH(pChessboard pBoard);
 
 //
 void Chessboard_free(pChessboard pBoard);
+
+//Clone
+pChessboard Chessboard_clone(pChessboard pBoardToClone);
+
+//
+pChessboard Chessboard_getNextState(pChessboard pBoardCurrentState);
 
 #endif
