@@ -11,6 +11,7 @@
 #define _CHESSBOARD_H
 
 #include "lib/env.h"
+#include "lib/Stack.h"
 #include "queen.h"
 
 typedef struct Chessboard* pChessboard;
@@ -39,7 +40,7 @@ pChessboard Chessboard_constructor(int size);
 void Chessboard_empty(pChessboard board);
 
 //Dessine l'echequier
-void Chessboard_draw(pChessboard board);
+void Chessboard_show(pChessboard board);
 
 //Retourne la position d'une reine dans une colonne
 int Chessboard_getQueenPos(pChessboard pBoard, int col);
@@ -53,20 +54,25 @@ bool Chessboard_equals(pChessboard pBoardB, pChessboard pBoardA);
 //Retourne le H d'une matrice
 int Chessboard_getH(pChessboard pBoard);
 
-//
+//Libérer l'échéquier de la mémoire
 void Chessboard_free(pChessboard pBoard);
 
 //Clone
 pChessboard Chessboard_clone(pChessboard pBoardToClone);
 
+//Déplacer la reine présente dans la colonne à la position indiquée
+void Chessboard_moveQueenTo(pChessboard pBoard, int col, int line);
+
 //
 pChessboard Chessboard_getNextState(pChessboard pBoardCurrentState);
-
+void Stack_showLowerValues(pStack stack);
 
 pMatrix Matrix_constructor(pChessboard pBoard);
 void Matrix_destructor(pMatrix hMatrix);
 
+//Retourne le meilleur H pour une matrice de H
+int* Matrix_getBestH(pMatrix hMat);
 
 //Tools
-void __drawMatrix(int** mat, int size);
+void __showMatrix(int** mat, int size);
 #endif

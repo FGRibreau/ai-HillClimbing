@@ -158,23 +158,14 @@ int Chessboard_getH(pChessboard pBoard){
 }
 
 
-void Chessboard_draw(pChessboard pBoard){
-	/*for(int y = 0; y < pBoard->size; y++){
-		for(int x = 0; x < pBoard->size; x++){
-			printf("%i ", pBoard->queens[y][x]);
-		}
-		
-		printf("\n");
-	}*/
-	
-	__drawMatrix(pBoard->queens, pBoard->size);
+void Chessboard_show(pChessboard pBoard){	
+	__showMatrix(pBoard->queens, pBoard->size);
 }
 
-void __drawMatrix(int** mat, int size){
-	
+void __showMatrix(int** mat, int size){
 	for(int y = 0; y < size; y++){
 		for(int x = 0; x < size; x++){
-			printf("%i ", mat[y][x]);
+			printf("\t%i", mat[y][x]);
 		}
 		
 		printf("\n");
@@ -195,39 +186,86 @@ void Chessboard_setQueens(pChessboard pBoard, int* values){
 //Prendre le dernier état du stack
 pChessboard Chessboard_getNextState(pChessboard pBoardCurrentState){
 	
-	printf("---------------\n");
+	printf("_____________________________________________\n");
 	
 	pChessboard pBoard = Chessboard_clone(pBoardCurrentState);
 
+	//Récupérer une matrice de H
 	pMatrix hMat = Matrix_constructor(pBoard);
 	
-	
-	
-	printf("\nMatrice H:\n");
-	__drawMatrix(hMat->values, pBoard->size);
+	/*printf("\nMatrice H:\n");
+	__showMatrix(hMat->values, pBoard->size);
 	printf("\n");
+	*/
 	
-	/*int** = _malloc(sizeof(int*) * pBoard->size);
-	int i = pBoard->size;
+	//Trouver le plus petit H
+	int* bestHPos = Matrix_getBestH(hMat);
 	
-	while(i--){
-	
-	}*/
-	//[H,X,Y]
-	
-	//Filtrer la matrice ne récupérer que les éléments les plus petit
-	for(int line = 0; line < pBoard->size; line++){
-		for(int col = 0; col < pBoard->size; col++){
-				
-		}
-	}
-	
+	//Déplacer la reine choisie
+	Chessboard_moveQueenTo(pBoard, bestHPos[1], bestHPos[2]);
+
 	Matrix_destructor(hMat);
 	
 	return pBoard;
 }
 
+int* Matrix_getBestH(pMatrix hMat){
+	pStack lowerValues = Stack_create();
+	
+	//Démarrer sur le premier H
+	Stack_push(&lowerValues, (int[3]){hMat->values[0][0], 0,0});
+	
+	//Filtrer la matrice ne récupérer que les éléments les plus petit
+	for(int line = 0; line < hMat->size; line++){
+		for(int col = 0; col < hMat->size; col++){
+			
+			//Comparer les H, ne garder que les H les plus bas
+			if(hMat->values[line][col] < ((int*)lowerValues->data)[0]){
+				Stack_delete(&lowerValues);
+				Stack_push(&lowerValues, (int[3]){hMat->values[line][col], col, line});
+				
+			} else if(hMat->values[line][col] == ((int*)lowerValues->data)[0]){
+				Stack_push(&lowerValues, (int[3]){hMat->values[line][col], col, line});
+			}
+		}
+	}
+	
+	//Stack_showLowerValues(lowerValues);
+	
+	int lVSz = Stack_size(lowerValues);
+	int* pos = NULL;
+	if(lVSz == 1){//Random sur la liste des H les plus bas
+		pos = (int*)lowerValues->data;
+	} else {
+		int i = rand() % lVSz;
+		pStack p = Stack__getAt(lowerValues, i);
+		pos = (int*)(p->data);	
+	}
+	
+	//printf("H sélectionné: [\t%i\t;\t%i\t]\n", pos[1], pos[2]);
+	
+	Stack_freeWithStaticData(lowerValues);
+	
+	return pos;
+}
+
 //Retourne un QueenState pour une colonne donnée
+
+//Affiche le contenu du stack
+void Stack_showLowerValues(pStack stack){
+	if(stack == NULL)
+		return;
+	
+	printf("\nPlus bas H:\t");
+
+	while(stack){
+		printf("%i [%i:%i]\t", ((int*)stack->data)[0], ((int*)stack->data)[1], ((int*)stack->data)[2]);
+		stack = stack->prev;
+	}
+	
+	printf("\n");
+
+}
 
 pMatrix Matrix_constructor(pChessboard pBoard){
 	pMatrix hMat = _malloc(sizeof(Matrix));
@@ -299,6 +337,26 @@ pChessboard Chessboard_clone(pChessboard pBoardToClone){
 	}
 	
 	return pBoard;
+}
+
+
+//Déplacer la reine présente dans la colonne à la position indiquée
+void Chessboard_moveQueenTo(pChessboard pBoard, int col, int line){
+	int oldQueenLinePos = Chessboard_getQueenPos(pBoard, col);
+	
+	if(line == -1){//Error
+		printf("\nAucune reine dans la colonne %i :\n", col);
+		Chessboard_show(pBoard);
+		exit(1);
+	}
+	
+	if(line == oldQueenLinePos){//Ne rien faire
+		return;
+	}
+	
+	
+	pBoard->queens[oldQueenLinePos][col] = 0;
+	pBoard->queens[line][col] = 1;
 }
 
 int Chessboard_getQueenPos(pChessboard pBoard, int col){

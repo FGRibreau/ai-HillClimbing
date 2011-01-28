@@ -26,13 +26,12 @@ void testChessboard(){
 	//Test1
 	pChessboard t = Chessboard_constructor(5);
 	
-	int values[] = {0,0,0,0,1,
-					0,0,0,0,0,
-					1,0,0,0,0,
-					0,0,1,1,0,
-					0,1,0,0,0};
-	
-	Chessboard_setQueens(t, values);
+
+	Chessboard_setQueens(t, (int[]){0,0,0,0,1,
+									0,0,0,0,0,
+									1,0,0,0,0,
+									0,0,1,1,0,
+									0,1,0,0,0});
 
 	equals(Chessboard_getH(t), 2, "Test du H (taille 5)");
 	
@@ -41,45 +40,42 @@ void testChessboard(){
 	//Test 2
 	t = Chessboard_constructor(4);
 	
-	int values2[] = {	1,1,0,0,
-						0,0,1,0,
-						0,0,0,0,
-						0,0,0,1};
+
+	Chessboard_setQueens(t, (int[]){	1,1,0,0,
+										0,0,1,0,
+										0,0,0,0,
+										0,0,0,1});
 	
-	Chessboard_setQueens(t, values2);
-	
-	equals(Chessboard_getH(t), 3, "Test du H ");
+	equals(Chessboard_getH(t), 3, "Test du H (taille 4)");
 
 	Chessboard_free(t);
 	
 	//Test 3
 	t = Chessboard_constructor(4);
 	
-	int values3[] = {	1,1,0,0,
-						0,0,1,0,
-						0,0,0,1,
-						0,0,0,0};
-	
-	Chessboard_setQueens(t, values3);
+
+	Chessboard_setQueens(t, (int[]){	1,1,0,0,
+										0,0,1,0,
+										0,0,0,0,
+										1,0,0,1});
 	
 	//Chessboard_draw(t);
 	
-	equals(Chessboard_getH(t), 4, "Test du H");
+	equals(Chessboard_getH(t), 6, "Test du H (taille 4)");
 	
 	Chessboard_free(t);
 
 	//Test 4
 	t = Chessboard_constructor(3);
 	
-	int values4[] = {	1,0,0,
-						0,1,0,
-						0,0,1};
 	
-	Chessboard_setQueens(t, values4);
+	Chessboard_setQueens(t, (int[]){	1,0,0,
+										0,1,0,
+										0,0,1});
 	
 	//Chessboard_draw(t);
 	
-	equals(Chessboard_getH(t), 3, "Test du H");
+	equals(Chessboard_getH(t), 3, "Test du H (taille 3)");
 	
 	Chessboard_free(t);
 

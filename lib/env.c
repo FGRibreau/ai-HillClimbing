@@ -32,6 +32,9 @@ void _free(void* t){
 	
 }
 
+//Ajouter srand ( time(NULL) );
+
+
 /*
  mémo:
  

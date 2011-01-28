@@ -72,7 +72,7 @@ int Stack_size(pStack stack){
 	
 	while(stack){
 		i++;
-		stack = stack->next;
+		stack = stack->prev;
 	}
 	
 	return i;
@@ -89,12 +89,36 @@ void Stack_forEach(pStack stack, void (*forEachCallback)(void* data, pStack stac
 	}while((stack = stack->prev));
 }
 
+pStack Stack__getAt(pStack stack, int pos){
+	if(stack == NULL){
+		return stack;
+	}
+	
+	int i = 0;
+	
+	//Boucle sur la liste chainée + comparaison de index
+	while(i++ < pos && stack->prev != NULL){
+		stack = stack->prev;
+	}
+	
+	return stack;
+}
+
 void Stack_free(pStack stack){
 	Stack_forEach(stack, ___Stack_free_callback);
+}
+
+void Stack_freeWithStaticData(pStack stack){
+	Stack_forEach(stack, ___Stack_freeWithStaticData_callback);
 }
 
 void ___Stack_free_callback(void* data, pStack stack){
 	_free(data);//Libération du data
 	_free(stack);//Libération du hash
 }
+
+void ___Stack_freeWithStaticData_callback(void* data, pStack stack){
+	_free(stack);//Libération du hash
+}
+
 
