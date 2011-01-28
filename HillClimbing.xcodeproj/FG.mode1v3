@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>C527AEC112F2B23B0039BE96</string>
+										<string>C527AF5912F2B95B0039BE96</string>
 										<key>history</key>
 										<array>
 											<string>C527AD7412F1D82D0039BE96</string>
@@ -335,12 +335,12 @@
 											<string>C527AD7A12F1D82D0039BE96</string>
 											<string>C527ADA912F1E1AC0039BE96</string>
 											<string>C527ADAA12F1E1AC0039BE96</string>
-											<string>C527ADD412F1EB520039BE96</string>
-											<string>C527AE1D12F2A5910039BE96</string>
-											<string>C527AE5912F2AB5D0039BE96</string>
-											<string>C527AE9612F2B0AF0039BE96</string>
-											<string>C527AEBC12F2B22E0039BE96</string>
-											<string>C527AEBD12F2B22E0039BE96</string>
+											<string>C527AEF612F2B5100039BE96</string>
+											<string>C527AEF712F2B5100039BE96</string>
+											<string>C527AEF912F2B5100039BE96</string>
+											<string>C527AF3A12F2B8850039BE96</string>
+											<string>C527AF5712F2B95B0039BE96</string>
+											<string>C527AF5812F2B95B0039BE96</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -543,6 +543,7 @@
 		<string>C527AD8212F1D82D0039BE96</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>C5CE750112E9731B00DEC784</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>/Users/FG/Dropbox/2010_2011_EPSI/IA/ai-HillClimbing/HillClimbing.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -762,7 +763,7 @@
 			<key>WindowToolGUID</key>
 			<string>1CD10A99069EF8BA00B06720</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

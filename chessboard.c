@@ -14,6 +14,7 @@ pChessboard Chessboard_constructor(int size){
 	pChessboard pBoard = _malloc(sizeof(Chessboard));
 	
 	pBoard->size = size;
+	pBoard->h = -1;
 	
 	//Alloc des lignes
 	pBoard->queens = _malloc(size * sizeof(int*));
@@ -72,11 +73,7 @@ int Chessboard_getH(pChessboard pBoard){
 				nbQueen++;
 			}
 		}
-		
-		if(nbQueen > 1){
-			//printf("(line) h = (h = %i) + %i\n", h, (nbQueen*(nbQueen-1))/2);
-		}
-		
+
 		h += nbQueen > 1 ? (nbQueen*(nbQueen-1))/2 : 0;
 	}
 
@@ -90,10 +87,6 @@ int Chessboard_getH(pChessboard pBoard){
 				nbQueen++;
 			}
 		}
-		
-		/*if(nbQueen > 1){
-			printf("(col)  h = (h = %i) + %i\n", h, (nbQueen*(nbQueen-1))/2);
-		}*/
 		
 		h += nbQueen > 1 ? (nbQueen*(nbQueen-1))/2 : 0;
 	}
@@ -122,11 +115,6 @@ int Chessboard_getH(pChessboard pBoard){
 				upLine--;
 			}
 			
-			/*if(nbQueen > 1){
-				printf("(up)  h = (h = %i) + %i\n", h, (nbQueen*(nbQueen-1))/2);
-			}*/
-			
-			//h += nbQueen > 1 ? (nbQueen*(nbQueen-1))/2 : 0;
 			h += nbQueen > 1 ? nbQueen-1 : 0;
 			nbQueen = 0;
 			
@@ -136,7 +124,7 @@ int Chessboard_getH(pChessboard pBoard){
 			while(dwCol < pBoard->size && dwLine < pBoard->size){
 				
 				if(pBoard->queens[dwLine][dwCol] == 1){
-					//printf("(dw) [%i][%i]\n", dwLine, dwCol);
+
 					nbQueen++;
 				}
 				
@@ -144,11 +132,6 @@ int Chessboard_getH(pChessboard pBoard){
 				dwLine++;
 			}
 
-			/*if(nbQueen > 1){
-				printf("(dw)  h = (h = %i) + %i\n", h, (nbQueen*(nbQueen-1))/2);
-			}*/
-			
-			//h += nbQueen > 1 ? ((nbQueen*(nbQueen-1))/2) : 0;
 			h += nbQueen > 1 ? nbQueen-1 : 0;
 		}
 	
@@ -181,6 +164,8 @@ void Chessboard_setQueens(pChessboard pBoard, int* values){
 			pBoard->queens[line][col] = values[i++];
 		}
 	}
+	
+	pBoard->h = -1;
 }
 
 //Prendre le dernier état du stack
@@ -189,14 +174,10 @@ pChessboard Chessboard_getNextState(pChessboard pBoardCurrentState){
 	printf("_____________________________________________\n");
 	
 	pChessboard pBoard = Chessboard_clone(pBoardCurrentState);
-
+	
 	//Récupérer une matrice de H
 	pMatrix hMat = Matrix_constructor(pBoard);
-	
-	/*printf("\nMatrice H:\n");
-	__showMatrix(hMat->values, pBoard->size);
-	printf("\n");
-	*/
+
 	
 	//Trouver le plus petit H
 	int* bestHPos = Matrix_getBestH(hMat);
@@ -322,7 +303,7 @@ pChessboard Chessboard_clone(pChessboard pBoardToClone){
 	pChessboard pBoard = _malloc(sizeof(Chessboard));
 	
 	pBoard->size = pBoardToClone->size;
-	
+	pBoard->h = -1;
 	//Alloc des lignes
 	pBoard->queens = _malloc(pBoardToClone->size * sizeof(int*));
 	
@@ -357,6 +338,7 @@ void Chessboard_moveQueenTo(pChessboard pBoard, int col, int line){
 	
 	pBoard->queens[oldQueenLinePos][col] = 0;
 	pBoard->queens[line][col] = 1;
+	pBoard->h = -1;
 }
 
 int Chessboard_getQueenPos(pChessboard pBoard, int col){

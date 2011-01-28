@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 #include "lib/env.h"
 #include "lib/Stack.h"
 #include "chessboard.h"
@@ -7,43 +8,42 @@
 int main (int argc, const char * argv[]) {
 	srand ( time(NULL) );
 	
-    //Test unitaire
+	int plateau = 0
+	,	plateauMax = 200;
 	
-	//testChessboard();
+	//Test unitaire
+	testChessboard();
 	
 	//Programme
-	pChessboard lastMat = Chessboard_constructor(8),
+	pChessboard lastMat = Chessboard_constructor(32),
 				newMat = NULL;
+	
 
-
-	
-	//printf("Matrixrice pareil ? %s\n", Chessboard_equals(tmp, tmp2) == true ? "Oui" : "Non");
-	
-	//Il faut maintenant, pour chaque reine, la déplacer sur toute la colonne et trouver son plus bas H
-	
-	//Puis, une fois toutes les reines déplacées et le plus bas H trouvé, changer la matrice initiale
-	
 	Chessboard_show(lastMat);
-	printf("Dernier H: %i\n", Chessboard_getH(lastMat));
+	printf("H: %i\n", Chessboard_getH(lastMat));
 	
 	newMat = Chessboard_getNextState(lastMat);
 	
+	int hL = 0, hR = 0;
+
 	//Trouver les états suivants
-	while(Chessboard_getH(newMat) < Chessboard_getH(lastMat)){
+	while((hL = Chessboard_getH(newMat)) <= (hR = Chessboard_getH(lastMat)) && plateau < plateauMax){
 		
-		Chessboard_free(lastMat);
-		Chessboard_show(newMat);
-		printf("Dernier H: %i\n", Chessboard_getH(newMat));
-		
-		lastMat = newMat;
-		
-		newMat = Chessboard_getNextState(lastMat);
+		if(hL == hR){
+			plateau++;
+		} else {
+			
+			Chessboard_free(lastMat);
+			Chessboard_show(newMat);
+			printf("H: %i\n", Chessboard_getH(newMat));
+			
+			lastMat = newMat;
+			newMat = Chessboard_getNextState(lastMat);
+		}
 	}
 	
-	/*Chessboard_show(newMat);
-	printf("Dernier H: %i\n", Chessboard_getH(newMat));*/
 	Chessboard_free(newMat);
 	
-	//_printMalloc();
+	
     return 0;
 }

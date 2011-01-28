@@ -257,6 +257,63 @@
 			C527AEBD12F2B22E0039BE96 /* PBXTextBookmark */ = C527AEBD12F2B22E0039BE96 /* PBXTextBookmark */;
 			C527AEBE12F2B22E0039BE96 /* PBXTextBookmark */ = C527AEBE12F2B22E0039BE96 /* PBXTextBookmark */;
 			C527AEC112F2B23B0039BE96 /* PBXTextBookmark */ = C527AEC112F2B23B0039BE96 /* PBXTextBookmark */;
+			C527AEC212F2B33A0039BE96 /* PBXTextBookmark */ = C527AEC212F2B33A0039BE96 /* PBXTextBookmark */;
+			C527AEC312F2B3950039BE96 /* PBXTextBookmark */ = C527AEC312F2B3950039BE96 /* PBXTextBookmark */;
+			C527AEC612F2B3FC0039BE96 /* XCBuildMessageTextBookmark */ = C527AEC612F2B3FC0039BE96 /* XCBuildMessageTextBookmark */;
+			C527AEC712F2B3FC0039BE96 /* PBXTextBookmark */ = C527AEC712F2B3FC0039BE96 /* PBXTextBookmark */;
+			C527AEC812F2B3FC0039BE96 /* PBXTextBookmark */ = C527AEC812F2B3FC0039BE96 /* PBXTextBookmark */;
+			C527AEC912F2B3FD0039BE96 /* PBXTextBookmark */ = C527AEC912F2B3FD0039BE96 /* PBXTextBookmark */;
+			C527AECA12F2B3FD0039BE96 /* PBXTextBookmark */ = C527AECA12F2B3FD0039BE96 /* PBXTextBookmark */;
+			C527AECB12F2B3FD0039BE96 /* PBXTextBookmark */ = C527AECB12F2B3FD0039BE96 /* PBXTextBookmark */;
+			C527AECC12F2B3FD0039BE96 /* PBXTextBookmark */ = C527AECC12F2B3FD0039BE96 /* PBXTextBookmark */;
+			C527AECD12F2B4080039BE96 /* PBXTextBookmark */ = C527AECD12F2B4080039BE96 /* PBXTextBookmark */;
+			C527AECE12F2B4080039BE96 /* PBXTextBookmark */ = C527AECE12F2B4080039BE96 /* PBXTextBookmark */;
+			C527AED912F2B43A0039BE96 /* PBXTextBookmark */ = C527AED912F2B43A0039BE96 /* PBXTextBookmark */;
+			C527AEDA12F2B43A0039BE96 /* PBXTextBookmark */ = C527AEDA12F2B43A0039BE96 /* PBXTextBookmark */;
+			C527AEDD12F2B4460039BE96 /* PBXTextBookmark */ = C527AEDD12F2B4460039BE96 /* PBXTextBookmark */;
+			C527AEDE12F2B4460039BE96 /* PBXTextBookmark */ = C527AEDE12F2B4460039BE96 /* PBXTextBookmark */;
+			C527AEDF12F2B4580039BE96 /* PBXTextBookmark */ = C527AEDF12F2B4580039BE96 /* PBXTextBookmark */;
+			C527AEE012F2B4580039BE96 /* PBXTextBookmark */ = C527AEE012F2B4580039BE96 /* PBXTextBookmark */;
+			C527AEE112F2B4580039BE96 /* PBXTextBookmark */ = C527AEE112F2B4580039BE96 /* PBXTextBookmark */;
+			C527AEE212F2B4580039BE96 /* PBXTextBookmark */ = C527AEE212F2B4580039BE96 /* PBXTextBookmark */;
+			C527AEE512F2B48C0039BE96 /* PBXTextBookmark */ = C527AEE512F2B48C0039BE96 /* PBXTextBookmark */;
+			C527AEE612F2B48C0039BE96 /* PBXTextBookmark */ = C527AEE612F2B48C0039BE96 /* PBXTextBookmark */;
+			C527AEE912F2B4BF0039BE96 /* PBXTextBookmark */ = C527AEE912F2B4BF0039BE96 /* PBXTextBookmark */;
+			C527AEEA12F2B4BF0039BE96 /* PBXTextBookmark */ = C527AEEA12F2B4BF0039BE96 /* PBXTextBookmark */;
+			C527AEED12F2B4DA0039BE96 /* PBXTextBookmark */ = C527AEED12F2B4DA0039BE96 /* PBXTextBookmark */;
+			C527AEEE12F2B4DA0039BE96 /* PBXTextBookmark */ = C527AEEE12F2B4DA0039BE96 /* PBXTextBookmark */;
+			C527AEF112F2B4FA0039BE96 /* PBXTextBookmark */ = C527AEF112F2B4FA0039BE96 /* PBXTextBookmark */;
+			C527AEF212F2B4FA0039BE96 /* PBXTextBookmark */ = C527AEF212F2B4FA0039BE96 /* PBXTextBookmark */;
+			C527AEF612F2B5100039BE96 /* PBXTextBookmark */ = C527AEF612F2B5100039BE96 /* PBXTextBookmark */;
+			C527AEF712F2B5100039BE96 /* PBXTextBookmark */ = C527AEF712F2B5100039BE96 /* PBXTextBookmark */;
+			C527AEF812F2B5100039BE96 /* PBXTextBookmark */ = C527AEF812F2B5100039BE96 /* PBXTextBookmark */;
+			C527AEF912F2B5100039BE96 /* PBXTextBookmark */ = C527AEF912F2B5100039BE96 /* PBXTextBookmark */;
+			C527AEFA12F2B5100039BE96 /* PBXTextBookmark */ = C527AEFA12F2B5100039BE96 /* PBXTextBookmark */;
+			C527AEFC12F2B5250039BE96 /* PBXTextBookmark */ = C527AEFC12F2B5250039BE96 /* PBXTextBookmark */;
+			C527AF0912F2B5790039BE96 /* PBXTextBookmark */ = C527AF0912F2B5790039BE96 /* PBXTextBookmark */;
+			C527AF0A12F2B5790039BE96 /* PBXTextBookmark */ = C527AF0A12F2B5790039BE96 /* PBXTextBookmark */;
+			C527AF1512F2B5B20039BE96 /* PBXTextBookmark */ = C527AF1512F2B5B20039BE96 /* PBXTextBookmark */;
+			C527AF1612F2B5B20039BE96 /* PBXTextBookmark */ = C527AF1612F2B5B20039BE96 /* PBXTextBookmark */;
+			C527AF1B12F2B6260039BE96 /* PBXTextBookmark */ = C527AF1B12F2B6260039BE96 /* PBXTextBookmark */;
+			C527AF1C12F2B6260039BE96 /* PBXTextBookmark */ = C527AF1C12F2B6260039BE96 /* PBXTextBookmark */;
+			C527AF1F12F2B6BE0039BE96 /* PBXTextBookmark */ = C527AF1F12F2B6BE0039BE96 /* PBXTextBookmark */;
+			C527AF2012F2B6BE0039BE96 /* PBXTextBookmark */ = C527AF2012F2B6BE0039BE96 /* PBXTextBookmark */;
+			C527AF2712F2B7C30039BE96 /* PBXTextBookmark */ = C527AF2712F2B7C30039BE96 /* PBXTextBookmark */;
+			C527AF2812F2B7C30039BE96 /* PBXTextBookmark */ = C527AF2812F2B7C30039BE96 /* PBXTextBookmark */;
+			C527AF2912F2B7C30039BE96 /* PBXTextBookmark */ = C527AF2912F2B7C30039BE96 /* PBXTextBookmark */;
+			C527AF3012F2B7ED0039BE96 /* PBXTextBookmark */ = C527AF3012F2B7ED0039BE96 /* PBXTextBookmark */;
+			C527AF3112F2B7ED0039BE96 /* PBXTextBookmark */ = C527AF3112F2B7ED0039BE96 /* PBXTextBookmark */;
+			C527AF3212F2B7ED0039BE96 /* PBXTextBookmark */ = C527AF3212F2B7ED0039BE96 /* PBXTextBookmark */;
+			C527AF3A12F2B8850039BE96 /* PBXTextBookmark */ = C527AF3A12F2B8850039BE96 /* PBXTextBookmark */;
+			C527AF3B12F2B8850039BE96 /* PBXTextBookmark */ = C527AF3B12F2B8850039BE96 /* PBXTextBookmark */;
+			C527AF3C12F2B8850039BE96 /* PBXTextBookmark */ = C527AF3C12F2B8850039BE96 /* PBXTextBookmark */;
+			C527AF3F12F2B8B60039BE96 /* PBXTextBookmark */ = C527AF3F12F2B8B60039BE96 /* PBXTextBookmark */;
+			C527AF4012F2B8B60039BE96 /* PBXTextBookmark */ = C527AF4012F2B8B60039BE96 /* PBXTextBookmark */;
+			C527AF5512F2B9580039BE96 /* PBXTextBookmark */ = C527AF5512F2B9580039BE96 /* PBXTextBookmark */;
+			C527AF5612F2B9580039BE96 /* PBXTextBookmark */ = C527AF5612F2B9580039BE96 /* PBXTextBookmark */;
+			C527AF5712F2B95B0039BE96 /* PBXTextBookmark */ = C527AF5712F2B95B0039BE96 /* PBXTextBookmark */;
+			C527AF5812F2B95B0039BE96 /* PBXTextBookmark */ = C527AF5812F2B95B0039BE96 /* PBXTextBookmark */;
+			C527AF5912F2B95B0039BE96 /* PBXTextBookmark */ = C527AF5912F2B95B0039BE96 /* PBXTextBookmark */;
 			C527E29312EEB31A006D7A71 = C527E29312EEB31A006D7A71 /* PBXTextBookmark */;
 			C527E31A12EEC9B8006D7A71 = C527E31A12EEC9B8006D7A71 /* PBXTextBookmark */;
 			C527E31C12EEC9B8006D7A71 = C527E31C12EEC9B8006D7A71 /* PBXTextBookmark */;
@@ -277,8 +334,8 @@
 	08FB7796FE84155DC02AAC07 /* main.c */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1138, 650}}";
-			sepNavSelRange = "{1164, 0}";
-			sepNavVisRange = "{115, 1052}";
+			sepNavSelRange = "{785, 0}";
+			sepNavVisRange = "{105, 811}";
 		};
 	};
 	8DD76FA90486AB0100D96B5E /* HillClimbing */ = {
@@ -332,7 +389,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 24";
 		rLen = 0;
-		rLoc = 312;
+		rLoc = 365;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 0;
@@ -372,7 +429,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 251";
 		rLen = 0;
-		rLoc = 5378;
+		rLoc = 4765;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 4236;
@@ -382,7 +439,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 252";
 		rLen = 0;
-		rLoc = 5392;
+		rLoc = 4779;
 		rType = 0;
 		vrLen = 1137;
 		vrLoc = 4562;
@@ -392,7 +449,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 252";
 		rLen = 24;
-		rLoc = 5380;
+		rLoc = 4767;
 		rType = 0;
 		vrLen = 1137;
 		vrLoc = 4562;
@@ -402,7 +459,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 252";
 		rLen = 24;
-		rLoc = 5380;
+		rLoc = 4767;
 		rType = 0;
 		vrLen = 1137;
 		vrLoc = 4562;
@@ -501,7 +558,7 @@
 		isa = PBXTextBookmark;
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		rLen = 0;
-		rLoc = 246;
+		rLoc = 227;
 		rType = 1;
 	};
 	C527AD9512F1DC080039BE96 /* PBXTextBookmark */ = {
@@ -509,7 +566,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 254";
 		rLen = 0;
-		rLoc = 5420;
+		rLoc = 4807;
 		rType = 0;
 		vrLen = 1117;
 		vrLoc = 4631;
@@ -538,7 +595,7 @@
 		isa = PBXTextBookmark;
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		rLen = 0;
-		rLoc = 248;
+		rLoc = 229;
 		rType = 1;
 	};
 	C527ADA412F1E07D0039BE96 /* PBXTextBookmark */ = {
@@ -546,7 +603,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 251";
 		rLen = 0;
-		rLoc = 5378;
+		rLoc = 4765;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 4236;
@@ -556,7 +613,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 251";
 		rLen = 0;
-		rLoc = 5378;
+		rLoc = 4765;
 		rType = 0;
 		vrLen = 1152;
 		vrLoc = 4236;
@@ -586,7 +643,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 24";
 		rLen = 0;
-		rLoc = 312;
+		rLoc = 365;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 0;
@@ -596,7 +653,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 183;
+		rLoc = 241;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 0;
@@ -606,7 +663,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 9";
 		rLen = 0;
-		rLoc = 183;
+		rLoc = 241;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 0;
@@ -616,7 +673,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 251";
 		rLen = 0;
-		rLoc = 5378;
+		rLoc = 4765;
 		rType = 0;
 		vrLen = 1193;
 		vrLoc = 4209;
@@ -626,7 +683,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 251";
 		rLen = 0;
-		rLoc = 5378;
+		rLoc = 4765;
 		rType = 0;
 		vrLen = 1107;
 		vrLoc = 4427;
@@ -636,7 +693,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 252";
 		rLen = 0;
-		rLoc = 5204;
+		rLoc = 4591;
 		rType = 0;
 		vrLen = 1090;
 		vrLoc = 4431;
@@ -677,7 +734,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 241;
+		rLoc = 222;
 		rType = 1;
 	};
 	C527ADBC12F1E73F0039BE96 /* PBXTextBookmark */ = {
@@ -685,7 +742,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 252";
 		rLen = 0;
-		rLoc = 5204;
+		rLoc = 4591;
 		rType = 0;
 		vrLen = 342;
 		vrLoc = 5163;
@@ -706,7 +763,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 241;
+		rLoc = 222;
 		rType = 1;
 	};
 	C527ADC112F1E74A0039BE96 /* PBXTextBookmark */ = {
@@ -714,7 +771,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 252";
 		rLen = 0;
-		rLoc = 5203;
+		rLoc = 4590;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 4429;
@@ -724,7 +781,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 254";
 		rLen = 0;
-		rLoc = 5308;
+		rLoc = 4695;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 4429;
@@ -764,7 +821,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 249";
 		rLen = 0;
-		rLoc = 5061;
+		rLoc = 4448;
 		rType = 0;
 		vrLen = 1094;
 		vrLoc = 4429;
@@ -823,7 +880,7 @@
 		isa = PBXTextBookmark;
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		rLen = 0;
-		rLoc = 234;
+		rLoc = 215;
 		rType = 1;
 	};
 	C527ADD712F1EB520039BE96 /* PBXTextBookmark */ = {
@@ -831,7 +888,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 254";
 		rLen = 0;
-		rLoc = 5282;
+		rLoc = 4669;
 		rType = 0;
 		vrLen = 1090;
 		vrLoc = 4429;
@@ -841,7 +898,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 252";
 		rLen = 0;
-		rLoc = 5203;
+		rLoc = 4590;
 		rType = 0;
 		vrLen = 1200;
 		vrLoc = 4459;
@@ -851,7 +908,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 256";
 		rLen = 0;
-		rLoc = 5328;
+		rLoc = 4715;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 4613;
@@ -862,7 +919,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 201;
+		rLoc = 182;
 		rType = 1;
 	};
 	C527ADE012F1EE470039BE96 /* PBXTextBookmark */ = {
@@ -870,7 +927,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 218";
 		rLen = 0;
-		rLoc = 4275;
+		rLoc = 3662;
 		rType = 0;
 		vrLen = 427;
 		vrLoc = 4045;
@@ -880,7 +937,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 23";
 		rLen = 0;
-		rLoc = 312;
+		rLoc = 365;
 		rType = 0;
 		vrLen = 914;
 		vrLoc = 0;
@@ -889,7 +946,7 @@
 		isa = PBXTextBookmark;
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		rLen = 0;
-		rLoc = 241;
+		rLoc = 222;
 		rType = 1;
 	};
 	C527ADE712F1EEB10039BE96 /* PBXTextBookmark */ = {
@@ -897,7 +954,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 253";
 		rLen = 0;
-		rLoc = 5283;
+		rLoc = 4670;
 		rType = 0;
 		vrLen = 1128;
 		vrLoc = 4879;
@@ -907,7 +964,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 253";
 		rLen = 0;
-		rLoc = 5215;
+		rLoc = 4602;
 		rType = 0;
 		vrLen = 1107;
 		vrLoc = 4879;
@@ -934,7 +991,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 218";
 		rLen = 0;
-		rLoc = 4275;
+		rLoc = 3662;
 		rType = 0;
 		vrLen = 425;
 		vrLoc = 3951;
@@ -944,7 +1001,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 218";
 		rLen = 0;
-		rLoc = 4275;
+		rLoc = 3662;
 		rType = 0;
 		vrLen = 425;
 		vrLoc = 3951;
@@ -964,7 +1021,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 26";
 		rLen = 0;
-		rLoc = 1131;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 786;
 		vrLoc = 0;
@@ -984,7 +1041,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 255";
 		rLen = 0;
-		rLoc = 5283;
+		rLoc = 4670;
 		rType = 0;
 		vrLen = 1000;
 		vrLoc = 20;
@@ -994,7 +1051,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 215";
 		rLen = 0;
-		rLoc = 4330;
+		rLoc = 3717;
 		rType = 0;
 		vrLen = 1236;
 		vrLoc = 4224;
@@ -1005,7 +1062,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 218;
+		rLoc = 199;
 		rType = 1;
 	};
 	C527AE1812F2A56F0039BE96 /* PBXTextBookmark */ = {
@@ -1013,7 +1070,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 224";
 		rLen = 0;
-		rLoc = 4609;
+		rLoc = 3996;
 		rType = 0;
 		vrLen = 609;
 		vrLoc = 4316;
@@ -1024,7 +1081,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 201;
+		rLoc = 182;
 		rType = 1;
 	};
 	C527AE1A12F2A5840039BE96 /* PBXTextBookmark */ = {
@@ -1032,7 +1089,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 202";
 		rLen = 0;
-		rLoc = 4120;
+		rLoc = 3507;
 		rType = 0;
 		vrLen = 423;
 		vrLoc = 3893;
@@ -1042,7 +1099,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 202";
 		rLen = 0;
-		rLoc = 4120;
+		rLoc = 3507;
 		rType = 0;
 		vrLen = 423;
 		vrLoc = 3893;
@@ -1072,7 +1129,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 202";
 		rLen = 0;
-		rLoc = 4156;
+		rLoc = 3543;
 		rType = 0;
 		vrLen = 1146;
 		vrLoc = 3545;
@@ -1082,7 +1139,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 202";
 		rLen = 0;
-		rLoc = 4156;
+		rLoc = 3543;
 		rType = 0;
 		vrLen = 1146;
 		vrLoc = 3545;
@@ -1092,7 +1149,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 205";
 		rLen = 0;
-		rLoc = 4248;
+		rLoc = 3635;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 3545;
@@ -1102,7 +1159,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 207";
 		rLen = 0;
-		rLoc = 4214;
+		rLoc = 3601;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 3695;
@@ -1113,7 +1170,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 349;
+		rLoc = 330;
 		rType = 1;
 	};
 	C527AE2812F2A7720039BE96 /* PBXTextBookmark */ = {
@@ -1121,7 +1178,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 349";
 		rLen = 0;
-		rLoc = 7832;
+		rLoc = 7234;
 		rType = 0;
 		vrLen = 501;
 		vrLoc = 7537;
@@ -1131,7 +1188,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 349";
 		rLen = 0;
-		rLoc = 7832;
+		rLoc = 7234;
 		rType = 0;
 		vrLen = 501;
 		vrLoc = 7537;
@@ -1151,7 +1208,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 204";
 		rLen = 0;
-		rLoc = 4189;
+		rLoc = 3576;
 		rType = 0;
 		vrLen = 1313;
 		vrLoc = 3685;
@@ -1161,7 +1218,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 26";
 		rLen = 0;
-		rLoc = 1131;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 786;
 		vrLoc = 0;
@@ -1171,7 +1228,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 33";
 		rLen = 0;
-		rLoc = 1131;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 830;
 		vrLoc = 0;
@@ -1181,7 +1238,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 349";
 		rLen = 0;
-		rLoc = 7832;
+		rLoc = 7234;
 		rType = 0;
 		vrLen = 501;
 		vrLoc = 7537;
@@ -1191,7 +1248,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 40";
 		rLen = 0;
-		rLoc = 1131;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 0;
@@ -1201,7 +1258,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 204";
 		rLen = 0;
-		rLoc = 4189;
+		rLoc = 3576;
 		rType = 0;
 		vrLen = 1313;
 		vrLoc = 3685;
@@ -1211,7 +1268,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 145";
 		rLen = 0;
-		rLoc = 2990;
+		rLoc = 2606;
 		rType = 0;
 		vrLen = 1020;
 		vrLoc = 0;
@@ -1221,7 +1278,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 347";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 406;
 		vrLoc = 7451;
@@ -1231,7 +1288,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 347";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 406;
 		vrLoc = 7451;
@@ -1241,7 +1298,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 347";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 406;
 		vrLoc = 7451;
@@ -1251,7 +1308,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 347";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 462;
 		vrLoc = 7472;
@@ -1270,8 +1327,8 @@
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 32";
-		rLen = 4;
-		rLoc = 877;
+		rLen = 0;
+		rLoc = 864;
 		rType = 0;
 		vrLen = 315;
 		vrLoc = 642;
@@ -1289,8 +1346,8 @@
 	C527AE4712F2AAE40039BE96 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
-		rLen = 4;
-		rLoc = 4031;
+		rLen = 0;
+		rLoc = 3476;
 		rType = 0;
 	};
 	C527AE4812F2AAE40039BE96 /* PBXTextBookmark */ = {
@@ -1298,7 +1355,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3832;
@@ -1308,7 +1365,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 347";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 462;
 		vrLoc = 7472;
@@ -1318,7 +1375,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3832;
@@ -1328,7 +1385,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 347";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 462;
 		vrLoc = 7472;
@@ -1338,7 +1395,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3832;
@@ -1348,7 +1405,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 347";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 462;
 		vrLoc = 7472;
@@ -1358,7 +1415,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3832;
@@ -1368,7 +1425,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 347";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 482;
 		vrLoc = 7506;
@@ -1378,7 +1435,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 343;
 		vrLoc = 3922;
@@ -1398,7 +1455,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 28";
 		rLen = 0;
-		rLoc = 739;
+		rLoc = 483;
 		rType = 0;
 		vrLen = 961;
 		vrLoc = 0;
@@ -1418,7 +1475,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 238";
 		rLen = 0;
-		rLoc = 5163;
+		rLoc = 4550;
 		rType = 0;
 		vrLen = 1164;
 		vrLoc = 4571;
@@ -1428,7 +1485,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 189";
 		rLen = 0;
-		rLoc = 3813;
+		rLoc = 3291;
 		rType = 0;
 		vrLen = 1313;
 		vrLoc = 4423;
@@ -1438,7 +1495,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 348";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 425;
 		vrLoc = 7483;
@@ -1448,7 +1505,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3862;
@@ -1458,7 +1515,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 348";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 424;
 		vrLoc = 7488;
@@ -1468,7 +1525,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3862;
@@ -1478,7 +1535,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 348";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 7488;
@@ -1488,7 +1545,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3862;
@@ -1498,7 +1555,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 348";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 7488;
@@ -1508,7 +1565,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3862;
@@ -1518,7 +1575,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 348";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 7488;
@@ -1528,7 +1585,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3862;
@@ -1538,7 +1595,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 241";
 		rLen = 0;
-		rLoc = 5305;
+		rLoc = 4692;
 		rType = 0;
 		vrLen = 1263;
 		vrLoc = 4243;
@@ -1558,7 +1615,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 32";
 		rLen = 0;
-		rLoc = 863;
+		rLoc = 864;
 		rType = 0;
 		vrLen = 989;
 		vrLoc = 0;
@@ -1568,7 +1625,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 348";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 7488;
@@ -1578,7 +1635,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3862;
@@ -1588,7 +1645,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 348";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 7488;
@@ -1598,7 +1655,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3862;
@@ -1608,7 +1665,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 348";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 7488;
@@ -1618,7 +1675,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3862;
@@ -1628,7 +1685,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 348";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 7488;
@@ -1638,7 +1695,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3862;
@@ -1648,7 +1705,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 41";
 		rLen = 0;
-		rLoc = 1103;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 1024;
 		vrLoc = 0;
@@ -1658,7 +1715,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 348";
 		rLen = 0;
-		rLoc = 7814;
+		rLoc = 7216;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 7488;
@@ -1677,7 +1734,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 41";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 422;
 		vrLoc = 613;
@@ -1687,7 +1744,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3862;
@@ -1697,7 +1754,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 41";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 422;
 		vrLoc = 613;
@@ -1707,7 +1764,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 381;
 		vrLoc = 3862;
@@ -1717,7 +1774,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 41";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 422;
 		vrLoc = 613;
@@ -1727,7 +1784,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 343;
 		vrLoc = 3922;
@@ -1737,7 +1794,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 41";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 422;
 		vrLoc = 613;
@@ -1747,7 +1804,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 303;
 		vrLoc = 3997;
@@ -1757,7 +1814,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 41";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 422;
 		vrLoc = 614;
@@ -1767,7 +1824,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 303;
 		vrLoc = 3997;
@@ -1787,7 +1844,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 200";
 		rLen = 0;
-		rLoc = 4091;
+		rLoc = 3478;
 		rType = 0;
 		vrLen = 1113;
 		vrLoc = 3467;
@@ -1797,7 +1854,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 31";
 		rLen = 0;
-		rLoc = 800;
+		rLoc = 572;
 		rType = 0;
 		vrLen = 1049;
 		vrLoc = 0;
@@ -1807,7 +1864,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 44";
 		rLen = 0;
-		rLoc = 1135;
+		rLoc = 899;
 		rType = 0;
 		vrLen = 1014;
 		vrLoc = 40;
@@ -1817,7 +1874,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 41";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 405;
 		vrLoc = 614;
@@ -1827,7 +1884,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 279;
 		vrLoc = 3997;
@@ -1837,7 +1894,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 41";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 424;
 		vrLoc = 613;
@@ -1847,7 +1904,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 303;
 		vrLoc = 3997;
@@ -1857,7 +1914,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 41";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 424;
 		vrLoc = 613;
@@ -1867,7 +1924,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 303;
 		vrLoc = 3997;
@@ -1877,7 +1934,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 41";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 504;
 		vrLoc = 511;
@@ -1887,7 +1944,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 303;
 		vrLoc = 3997;
@@ -1897,7 +1954,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 43";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 482;
 		vrLoc = 511;
@@ -1907,7 +1964,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 303;
 		vrLoc = 3997;
@@ -1917,7 +1974,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 44";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 510;
 		vrLoc = 511;
@@ -1927,7 +1984,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 303;
 		vrLoc = 3997;
@@ -1937,7 +1994,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 44";
 		rLen = 0;
-		rLoc = 1100;
+		rLoc = 869;
 		rType = 0;
 		vrLen = 510;
 		vrLoc = 511;
@@ -1947,7 +2004,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 197";
 		rLen = 0;
-		rLoc = 4048;
+		rLoc = 3476;
 		rType = 0;
 		vrLen = 303;
 		vrLoc = 3997;
@@ -1957,7 +2014,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 209";
 		rLen = 4;
-		rLoc = 4287;
+		rLoc = 3674;
 		rType = 0;
 		vrLen = 1099;
 		vrLoc = 3530;
@@ -1967,7 +2024,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 28";
 		rLen = 23;
-		rLoc = 707;
+		rLoc = 451;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 19;
@@ -1977,7 +2034,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 35";
 		rLen = 0;
-		rLoc = 890;
+		rLoc = 864;
 		rType = 0;
 		vrLen = 1052;
 		vrLoc = 115;
@@ -1987,10 +2044,579 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 48";
 		rLen = 0;
-		rLoc = 1164;
+		rLoc = 913;
 		rType = 0;
 		vrLen = 1052;
 		vrLoc = 115;
+	};
+	C527AEC212F2B33A0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 32";
+		rLen = 0;
+		rLoc = 508;
+		rType = 0;
+		vrLen = 1074;
+		vrLoc = 115;
+	};
+	C527AEC312F2B3950039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 19";
+		rLen = 0;
+		rLoc = 365;
+		rType = 0;
+		vrLen = 817;
+		vrLoc = 0;
+	};
+	C527AEC612F2B3FC0039BE96 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Implicit declaration of function 'time'";
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 11;
+		rType = 1;
+	};
+	C527AEC712F2B3FC0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 37";
+		rLen = 0;
+		rLoc = 869;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 471;
+	};
+	C527AEC812F2B3FC0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 202";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 269;
+		vrLoc = 4112;
+	};
+	C527AEC912F2B3FD0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 25";
+		rLen = 0;
+		rLoc = 508;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 0;
+	};
+	C527AECA12F2B3FD0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 161";
+		rLen = 0;
+		rLoc = 2656;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 2813;
+	};
+	C527AECB12F2B3FD0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74ED12E96F3900DEC784 /* chessboard.h */;
+		name = "chessboard.h: 44";
+		rLen = 0;
+		rLoc = 692;
+		rType = 0;
+		vrLen = 1173;
+		vrLoc = 508;
+	};
+	C527AECC12F2B3FD0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74ED12E96F3900DEC784 /* chessboard.h */;
+		name = "chessboard.h: 44";
+		rLen = 0;
+		rLoc = 692;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 518;
+	};
+	C527AECD12F2B4080039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 37";
+		rLen = 0;
+		rLoc = 869;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 471;
+	};
+	C527AECE12F2B4080039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 202";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 269;
+		vrLoc = 4112;
+	};
+	C527AED912F2B43A0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 37";
+		rLen = 0;
+		rLoc = 869;
+		rType = 0;
+		vrLen = 325;
+		vrLoc = 474;
+	};
+	C527AEDA12F2B43A0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 202";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 4113;
+	};
+	C527AEDD12F2B4460039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 37";
+		rLen = 0;
+		rLoc = 869;
+		rType = 0;
+		vrLen = 325;
+		vrLoc = 474;
+	};
+	C527AEDE12F2B4460039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 202";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 4113;
+	};
+	C527AEDF12F2B4580039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74ED12E96F3900DEC784 /* chessboard.h */;
+		name = "chessboard.h: 67";
+		rLen = 0;
+		rLoc = 1368;
+		rType = 0;
+		vrLen = 1163;
+		vrLoc = 518;
+	};
+	C527AEE012F2B4580039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 330";
+		rLen = 0;
+		rLoc = 6493;
+		rType = 0;
+		vrLen = 1120;
+		vrLoc = 6956;
+	};
+	C527AEE112F2B4580039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 25";
+		rLen = 0;
+		rLoc = 508;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 0;
+	};
+	C527AEE212F2B4580039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 28";
+		rLen = 0;
+		rLoc = 864;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 0;
+	};
+	C527AEE512F2B48C0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 37";
+		rLen = 0;
+		rLoc = 869;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 471;
+	};
+	C527AEE612F2B48C0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 203";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 285;
+		vrLoc = 4214;
+	};
+	C527AEE912F2B4BF0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 37";
+		rLen = 0;
+		rLoc = 869;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 471;
+	};
+	C527AEEA12F2B4BF0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 207";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 297;
+		vrLoc = 4150;
+	};
+	C527AEED12F2B4DA0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 37";
+		rLen = 0;
+		rLoc = 869;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 471;
+	};
+	C527AEEE12F2B4DA0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 207";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 297;
+		vrLoc = 4150;
+	};
+	C527AEF112F2B4FA0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 37";
+		rLen = 0;
+		rLoc = 869;
+		rType = 0;
+		vrLen = 328;
+		vrLoc = 471;
+	};
+	C527AEF212F2B4FA0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 207";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 297;
+		vrLoc = 4150;
+	};
+	C527AEF612F2B5100039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5B3FA5F12ED711200FFABF8 /* Stack.c */;
+		name = "Stack.c: 102";
+		rLen = 0;
+		rLoc = 1661;
+		rType = 0;
+		vrLen = 876;
+		vrLoc = 1120;
+	};
+	C527AEF712F2B5100039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5B3FA6012ED711200FFABF8 /* Stack.h */;
+		name = "Stack.h: 27";
+		rLen = 0;
+		rLoc = 525;
+		rType = 0;
+		vrLen = 709;
+		vrLoc = 0;
+	};
+	C527AEF812F2B5100039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 28";
+		rLen = 0;
+		rLoc = 864;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 0;
+	};
+	C527AEF912F2B5100039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74ED12E96F3900DEC784 /* chessboard.h */;
+		name = "chessboard.h: 67";
+		rLen = 0;
+		rLoc = 1368;
+		rType = 0;
+		vrLen = 1173;
+		vrLoc = 508;
+	};
+	C527AEFA12F2B5100039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 157";
+		rLen = 0;
+		rLoc = 2656;
+		rType = 0;
+		vrLen = 845;
+		vrLoc = 2856;
+	};
+	C527AEFC12F2B5250039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 76";
+		rLen = 0;
+		rLoc = 1505;
+		rType = 0;
+		vrLen = 921;
+		vrLoc = 1347;
+	};
+	C527AF0912F2B5790039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 46";
+		rLen = 0;
+		rLoc = 869;
+		rType = 0;
+		vrLen = 444;
+		vrLoc = 504;
+	};
+	C527AF0A12F2B5790039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 180";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 379;
+		vrLoc = 4317;
+	};
+	C527AF1512F2B5B20039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 47";
+		rLen = 0;
+		rLoc = 869;
+		rType = 0;
+		vrLen = 273;
+		vrLoc = 725;
+	};
+	C527AF1612F2B5B20039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 180";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 379;
+		vrLoc = 4317;
+	};
+	C527AF1B12F2B6260039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 47";
+		rLen = 0;
+		rLoc = 869;
+		rType = 0;
+		vrLen = 273;
+		vrLoc = 725;
+	};
+	C527AF1C12F2B6260039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 180";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 379;
+		vrLoc = 4317;
+	};
+	C527AF1F12F2B6BE0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 41";
+		rLen = 0;
+		rLoc = 869;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 471;
+	};
+	C527AF2012F2B6BE0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 180";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 310;
+		vrLoc = 4317;
+	};
+	C527AF2712F2B7C30039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 180";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 1248;
+		vrLoc = 3150;
+	};
+	C527AF2812F2B7C30039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 28";
+		rLen = 0;
+		rLoc = 864;
+		rType = 0;
+		vrLen = 799;
+		vrLoc = 0;
+	};
+	C527AF2912F2B7C30039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 43";
+		rLen = 0;
+		rLoc = 864;
+		rType = 0;
+		vrLen = 930;
+		vrLoc = 115;
+	};
+	C527AF3012F2B7ED0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 43";
+		rLen = 0;
+		rLoc = 864;
+		rType = 0;
+		vrLen = 930;
+		vrLoc = 115;
+	};
+	C527AF3112F2B7ED0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5B3FB2412ED954700FFABF8 /* testChessboard.c */;
+		name = "testChessboard.c: 58";
+		rLen = 0;
+		rLoc = 1040;
+		rType = 0;
+		vrLen = 772;
+		vrLoc = 554;
+	};
+	C527AF3212F2B7ED0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5B3FB2412ED954700FFABF8 /* testChessboard.c */;
+		name = "testChessboard.c: 84";
+		rLen = 0;
+		rLoc = 1509;
+		rType = 0;
+		vrLen = 840;
+		vrLoc = 1094;
+	};
+	C527AF3A12F2B8850039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5B3FB2412ED954700FFABF8 /* testChessboard.c */;
+		name = "testChessboard.c: 84";
+		rLen = 0;
+		rLoc = 1509;
+		rType = 0;
+		vrLen = 833;
+		vrLoc = 763;
+	};
+	C527AF3B12F2B8850039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 43";
+		rLen = 0;
+		rLoc = 864;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 115;
+	};
+	C527AF3C12F2B8850039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 11";
+		rLen = 0;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 870;
+		vrLoc = 184;
+	};
+	C527AF3F12F2B8B60039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 48";
+		rLen = 0;
+		rLoc = 869;
+		rType = 0;
+		vrLen = 438;
+		vrLoc = 400;
+	};
+	C527AF4012F2B8B60039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 180";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 379;
+		vrLoc = 4317;
+	};
+	C527AF5512F2B9580039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 44";
+		rLen = 0;
+		rLoc = 869;
+		rType = 0;
+		vrLen = 431;
+		vrLoc = 363;
+	};
+	C527AF5612F2B9580039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 180";
+		rLen = 0;
+		rLoc = 3476;
+		rType = 0;
+		vrLen = 379;
+		vrLoc = 4317;
+	};
+	C527AF5712F2B95B0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
+		name = "chessboard.c: 72";
+		rLen = 0;
+		rLoc = 1447;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 1001;
+	};
+	C527AF5812F2B95B0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 15";
+		rLen = 0;
+		rLoc = 341;
+		rType = 0;
+		vrLen = 797;
+		vrLoc = 0;
+	};
+	C527AF5912F2B95B0039BE96 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
+		name = "main.c: 38";
+		rLen = 0;
+		rLoc = 785;
+		rType = 0;
+		vrLen = 811;
+		vrLoc = 105;
 	};
 	C527E29312EEB31A006D7A71 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -2067,7 +2693,7 @@
 		fRef = 08FB7796FE84155DC02AAC07 /* main.c */;
 		name = "main.c: 24";
 		rLen = 0;
-		rLoc = 312;
+		rLoc = 365;
 		rType = 0;
 		vrLen = 1009;
 		vrLoc = 0;
@@ -2087,7 +2713,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 257";
 		rLen = 0;
-		rLoc = 6842;
+		rLoc = 6229;
 		rType = 0;
 		vrLen = 1166;
 		vrLoc = 4787;
@@ -2097,7 +2723,7 @@
 		fRef = C5CE74EE12E96F3900DEC784 /* chessboard.c */;
 		name = "chessboard.c: 215";
 		rLen = 0;
-		rLoc = 4249;
+		rLoc = 3636;
 		rType = 0;
 		vrLen = 893;
 		vrLoc = 3620;
@@ -2118,15 +2744,15 @@
 	};
 	C5B3FA5F12ED711200FFABF8 /* Stack.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1138, 1612}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1138, 1625}}";
 			sepNavSelRange = "{1661, 0}";
-			sepNavVisRange = "{1118, 878}";
+			sepNavVisRange = "{1120, 876}";
 			sepNavWindowFrame = "{{15, 197}, {1190, 676}}";
 		};
 	};
 	C5B3FA6012ED711200FFABF8 /* Stack.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1138, 582}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1138, 580}}";
 			sepNavSelRange = "{525, 0}";
 			sepNavVisRange = "{0, 709}";
 		};
@@ -2150,9 +2776,9 @@
 	};
 	C5B3FB2412ED954700FFABF8 /* testChessboard.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1138, 1378}}";
-			sepNavSelRange = "{1040, 0}";
-			sepNavVisRange = "{509, 817}";
+			sepNavIntBoundsRect = "{{0, 0}, {1138, 1365}}";
+			sepNavSelRange = "{1509, 0}";
+			sepNavVisRange = "{763, 833}";
 			sepNavWindowFrame = "{{15, 197}, {1190, 676}}";
 		};
 	};
@@ -2205,16 +2831,16 @@
 	C5CE74ED12E96F3900DEC784 /* chessboard.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1138, 1027}}";
-			sepNavSelRange = "{692, 0}";
-			sepNavVisRange = "{479, 1202}";
+			sepNavSelRange = "{1368, 0}";
+			sepNavVisRange = "{508, 1173}";
 			sepNavWindowFrame = "{{38, 176}, {1190, 676}}";
 		};
 	};
 	C5CE74EE12E96F3900DEC784 /* chessboard.c */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {720, 5161}}";
-			sepNavSelRange = "{4048, 0}";
-			sepNavVisRange = "{3997, 303}";
+			sepNavIntBoundsRect = "{{0, 0}, {720, 4706}}";
+			sepNavSelRange = "{3476, 0}";
+			sepNavVisRange = "{4317, 379}";
 			sepNavWindowFrame = "{{15, 197}, {1190, 676}}";
 		};
 	};

@@ -80,6 +80,8 @@ void testChessboard(){
 	Chessboard_free(t);
 
 	testEqualsClone();
+	
+	printf("_________FIN_DES_TESTS_______________________\n\n");
 }
 
 void testEqualsClone(){
