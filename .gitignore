@@ -1,6 +1,6 @@
 #Local ignore
 /build/
-/HillClimbing.xcodeproj/
+HillClimbing.xcodeproj
 HillClimbing.1
 .DS_STORE
 
@@ -39,3 +39,5 @@ HillClimbing.1
 ehthumbs.db
 Icon?
 Thumbs.db
+/HillClimbing.xcodeproj/FG.pbxuser
+/HillClimbing.xcodeproj/FG.mode1v3

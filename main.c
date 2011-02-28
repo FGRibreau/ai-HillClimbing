@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <time.h>
+
+//Libraries
 #include "lib/env.h"
 #include "lib/Stack.h"
+
+//Objets métiers + Tests unitaires
 #include "chessboard.h"
 #include "testChessboard.h"
 
@@ -9,38 +13,43 @@ int main (int argc, const char * argv[]) {
 	srand ( time(NULL) );
 	
 	int plateau = 0
-	,	plateauMax = 200;
+	,	plateauMax = 200
+	,	hL = 0
+	,	hR = -1;
 	
 	//Test unitaire
 	testChessboard();
 	
-	//Programme
-	pChessboard lastMat = Chessboard_constructor(32),
+	//Echiquier
+	pChessboard lastMat = Chessboard_constructor(16),
 				newMat = NULL;
 	
-
-	Chessboard_show(lastMat);
-	printf("H: %i\n", Chessboard_getH(lastMat));
 	
-	newMat = Chessboard_getNextState(lastMat);
-	
-	int hL = 0, hR = 0;
-
-	//Trouver les états suivants
-	while((hL = Chessboard_getH(newMat)) <= (hR = Chessboard_getH(lastMat)) && plateau < plateauMax){
+	do{
 		
+		//Si entre 2 états le H est identique
 		if(hL == hR){
 			plateau++;
 		} else {
 			
-			Chessboard_free(lastMat);
-			Chessboard_show(newMat);
-			printf("H: %i\n", Chessboard_getH(newMat));
+			if(newMat != NULL){//Première itération
+				Chessboard_free(lastMat);
 			
-			lastMat = newMat;
+				//Afficher l'état actuel
+				printf("_____________________________________________\n\n");
+				Chessboard_show(newMat);
+				printf("H: %i\n", Chessboard_getH(newMat));
+				lastMat = newMat;
+			}
+			
+			//Trouver l'état suivant
 			newMat = Chessboard_getNextState(lastMat);
+			
 		}
-	}
+	
+	//Continuer tant que le H baisse et que notre limite de plateau n'est pas atteinte
+	} while (((hL = Chessboard_getH(newMat)) <= (hR = Chessboard_getH(lastMat)) && plateau < plateauMax));
+	
 	
 	Chessboard_free(newMat);
 	

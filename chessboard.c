@@ -141,17 +141,21 @@ int Chessboard_getH(pChessboard pBoard){
 }
 
 
-void Chessboard_show(pChessboard pBoard){	
+void Chessboard_show(pChessboard pBoard){
+	if(pBoard == NULL){
+		return;
+	}
 	__showMatrix(pBoard->queens, pBoard->size);
 }
 
 void __showMatrix(int** mat, int size){
 	for(int y = 0; y < size; y++){
+		printf("|");
 		for(int x = 0; x < size; x++){
-			printf("\t%i", mat[y][x]);
+			printf(" %c ", mat[y][x] == 0 ? '.':'X');
 		}
 		
-		printf("\n");
+		printf("|\n");
 	}
 }
 
@@ -170,8 +174,6 @@ void Chessboard_setQueens(pChessboard pBoard, int* values){
 
 //Prendre le dernier état du stack
 pChessboard Chessboard_getNextState(pChessboard pBoardCurrentState){
-	
-	printf("_____________________________________________\n");
 	
 	pChessboard pBoard = Chessboard_clone(pBoardCurrentState);
 	
